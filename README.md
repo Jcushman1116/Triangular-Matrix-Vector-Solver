@@ -17,7 +17,7 @@ Computes the same product as Subroutine 1 but stores only the nonzero sub-diagon
 elements of L in a 1-D array to reduce memory usage. Complexity: O(n²)
 
 **Subroutine 3 — Banded unit lower triangular matrix-vector product** (`Lvmult_col_banded`)
-Computes z = L_B * v where L_B has bandwidth 2, storing only the two sub-diagonals.
+Computes $z = L_B * v$ where $L_B$ has bandwidth 2, storing only the two sub-diagonals.
 Uses the formula:
 
 $$
